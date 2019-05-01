@@ -1,6 +1,6 @@
 # OneClick Cloudflare DNS
 Tired of having to click through dozens of pages just to enable Cloudflare DNS on Windows? *OneClick Cloudflare DNS* has got you covered  
-With **Oneclick Cloduflare DNS** you will now be able to enable/disable the DNS with just one click!  
+With **OneClick Cloduflare DNS** you will now be able to enable/disable the DNS with just one click!  
   
 ## Setup
 Simply write in the `adapter_name.txt` file the name of your network adapter in between `"`'s  
