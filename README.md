@@ -4,16 +4,16 @@ With **OneClick Cloduflare DNS** you will now be able to enable/disable the DNS 
   
 ## Setup
 Simply write in the `adapter_name.txt` file the name of your network adapter in between `"`'s  
-EG: `"Wi-Fi"`  
+EG: `"Wi-Fi"`    
   
 You can find the name of your adapter by going to `Control Panel` > `Network and Internet` > `Network and Sharing Centre` > `Change adapter settings` *(on the left sidebar)*
-
+  
 ## Install
-After you have placed all the files in your desired folder, run `install.bat`, it will automatically create a shortcut on your Desktop.
-The shortcut will automatically change between `Enable Cloudflare` and `Disable Cloudflare` according to if it's already enabled or not
-
+After you have placed all the files in your desired folder, run `install.bat`, it will automatically create a shortcut on your Desktop.  
+The shortcut will automatically change between `Enable Cloudflare` and `Disable Cloudflare` according to if it's already enabled or not. 
+  
 ## Run
-Simply execute the shortcut which was installed on the Desktop
+Simply execute the shortcut which was installed on the Desktop. 
 
 ## Disclaimer
-Cloudflare's icon is property of Cloudflare, Inc.
+Cloudflare's icon is property of Cloudflare, Inc.  
