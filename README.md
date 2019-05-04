@@ -8,5 +8,12 @@ EG: `"Wi-Fi"`
   
 You can find the name of your adapter by going to `Control Panel` > `Network and Internet` > `Network and Sharing Centre` > `Change adapter settings` *(on the left sidebar)*
 
+## Install
+After you have placed all the files in your desired folder, run `install.bat`, it will automatically create a shortcut on your Desktop.
+The shortcut will automatically change between `Enable Cloudflare` and `Disable Cloudflare` according to if it's already enabled or not
+
 ## Run
-Run **as administrator** either `enable.bat` to *enable* Cloudflare DNS or `disable.bat` to *disable* Cloudflare DNS
+Simply execute the shortcut which was installed on the Desktop
+
+## Disclaimer
+Cloudflare's icon is property of Cloudflare, Inc.
