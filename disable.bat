@@ -22,11 +22,9 @@ if '%errorlevel%' NEQ '0' (
 :gotAdmin
     pushd "%CD%"
     CD /D "%~dp0"
-  
     set scriptpath=%~dp0
-    set /p ADAPTERNAME=<"%scriptpath%adapter_name.txt"
-    netsh interface ipv4 set dns %ADAPTERNAME% dhcp
-    netsh interface ipv6 set dns %ADAPTERNAME% dhcp
+    
+    wmic nicconfig where "(IPEnabled=TRUE)" call SetDNSServerSearchOrder ()
     ipconfig /flushdns
 
     del "%HOMEDRIVE%%HOMEPATH%\Desktop\Disable Cloudflare.lnk"
